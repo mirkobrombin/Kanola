@@ -32,5 +32,5 @@ source:
   # needed for about screen in kde settings
   - wayland-utils
   - vulkan-tools
-  - mesa-tools
+  - mesa-utils
   - clinfo
