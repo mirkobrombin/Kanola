@@ -1,0 +1,4 @@
+name: fix-wallpapers-path
+type: shell
+commands:
+- ln -s /usr/share/backgrounds/vanilla /usr/share/wallpapers/vanilla
