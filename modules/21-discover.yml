@@ -1,0 +1,6 @@
+name: plasma-discover
+type: apt
+source:
+  packages:
+  - plasma-discover
+  - plasma-discover-backend-flatpak
