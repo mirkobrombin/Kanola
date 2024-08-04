@@ -3,7 +3,7 @@ id: kanola-plasma
 
 stages:
 - id: build
-  base: ghcr.io/kanola-images/base:main
+  base: ghcr.io/mirkobrombin/base:main
   singlelayer: false
   labels:
     maintainer: Kanola Contributors
@@ -39,11 +39,12 @@ stages:
     type: includes
     includes:
       - modules/20-plasma-core.yml
+      - modules/21-discover.yml
+      - modules/27-fix-wallpapers-path.yml
       - modules/30-plasma-essentials.yml
       - modules/161-plasma-utilities.yml
       - modules/200-plasma-common.yml
       - modules/996-kde-cleanup.yml
-      - modules/997-clobber-kde-apps.yml
 
   - name: cleanup
     type: shell

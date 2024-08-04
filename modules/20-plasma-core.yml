@@ -25,3 +25,12 @@ source:
   - xdg-desktop-portal
   - xdg-desktop-portal-kde
   - xdg-desktop-portal-gtk
+
+  # needed to handle flatpak permissions in kde settings
+  - kde-config-flatpak
+
+  # needed for about screen in kde settings
+  - wayland-utils
+  - vulkan-tools
+  - mesa-tools
+  - clinfo
