@@ -6,3 +6,4 @@ source:
   - dolphin
   - dolphin-nextcloud
   - dolphin-plugins
+  - konsole
